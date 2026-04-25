@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+html, body {
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+}

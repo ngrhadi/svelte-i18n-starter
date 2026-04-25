@@ -1,0 +1,18 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"visit": "Visit",
+	"nav_home": "Home",
+	"nav_about": "About",
+	"about_title": "About",
+	"about_desc": "This is a simple SvelteKit app with easing visualizations and multi-language support.",
+	"about_features": "Features",
+	"about_tech": "Tech Stack",
+	"feature_easing": "Interactive easing curve visualizer",
+	"feature_i18n": "Multi-language support (English, Indonesian)",
+	"feature_responsive": "Responsive design",
+	"tech_svelte": "SvelteKit 5 with Svelte runes",
+	"tech_tailwind": "Tailwind CSS v4",
+	"tech_paraglide": "Paraglide for i18n",
+	"tech_vite": "Vite for build"
+}

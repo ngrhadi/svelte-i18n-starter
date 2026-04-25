@@ -1,0 +1,18 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from idss!",
+	"visit": "Kunjungi",
+	"nav_home": "Beranda",
+	"nav_about": "Tentang",
+	"about_title": "Tentang",
+	"about_desc": "Ini adalah aplikasi SvelteKit sederhana dengan visualisasi easing dan dukungan multi-bahasa.",
+	"about_features": "Fitur",
+	"about_tech": "Teknologi",
+	"feature_easing": "Visualisasi kurva easing interaktif",
+	"feature_i18n": "Dukungan multi-bahasa (Inggris, Indonesia)",
+	"feature_responsive": "Desain responsif",
+	"tech_svelte": "SvelteKit 5 dengan Svelte runes",
+	"tech_tailwind": "Tailwind CSS v4",
+	"tech_paraglide": "Paraglide untuk i18n",
+	"tech_vite": "Vite untuk build"
+}
