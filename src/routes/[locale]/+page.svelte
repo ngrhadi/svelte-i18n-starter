@@ -1,7 +1,11 @@
 <script>
 	import Header from '$lib/ui/Header.svelte';
+	import Footer from '$lib/ui/Footer.svelte';
+	import LandingPage from '$lib/ui/LandingPage.svelte';
 </script>
 
 <Header />
 
-<h1>HELLO WORLD</h1>
+<LandingPage />
+
+<Footer />

@@ -1,6 +1,6 @@
-# sv
+# Start Audio - Landing Page
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A modern, animated landing page for Start Audio (premium headset e-commerce) built with SvelteKit 5, Tailwind CSS, and Paraglide i18n.
 
 ## Creating a project
 

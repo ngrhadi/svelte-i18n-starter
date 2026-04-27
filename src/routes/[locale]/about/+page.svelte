@@ -1,6 +1,7 @@
 <script>
 	import Header from '$lib/ui/Header.svelte';
 	import { m } from '$lib/paraglide/messages';
+	import Footer from '$lib/ui/Footer.svelte';
 </script>
 
 <Header />
@@ -28,6 +29,8 @@
 		</ul>
 	</section>
 </main>
+
+<Footer />
 
 <style>
 	.container {

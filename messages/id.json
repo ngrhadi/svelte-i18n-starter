@@ -14,5 +14,22 @@
 	"tech_svelte": "SvelteKit 5 dengan Svelte runes",
 	"tech_tailwind": "Tailwind CSS v4",
 	"tech_paraglide": "Paraglide untuk i18n",
-	"tech_vite": "Vite untuk build"
+	"tech_vite": "Vite untuk build",
+	"hero_title": "Pengalaman Audio Premium",
+	"hero_subtitle": "Temukan headset terbaik di dunia",
+	"hero_cta": "Belanja Sekarang",
+	"feature_1_title": "Suara Jernih Kristal",
+	"feature_1_desc": "Rasakan kualitas audio sempurna dengan teknologi peredam bising canggih",
+	"feature_2_title": "Kenyamanan Sepanjang Hari",
+	"feature_2_desc": "Desain ringan dengan bahan premium untuk mendengarkan berjam-jam dengan nyaman",
+	"feature_3_title": "Baterai Tahan Lama",
+    "why_product":"Kenapa Memilih Start Audio",
+	"feature_3_desc": "Hingga 48 jam daya tahan dengan kemampuan pengisian cepat",
+	"cta_title": "Siap Meningkatkan Audio Anda?",
+	"cta_desc": "Bergabunglah dengan ribuan penggemar audio di seluruh dunia",
+	"cta_button": "Mulai Sekarang",
+	"footer_copyright": "© 2026 Start Audio. Semua hak dilindungi.",
+	"footer_about": "Tentang",
+	"footer_contact": "Hubungi",
+	"footer_privacy": "Privasi"
 }

@@ -14,5 +14,22 @@
 	"tech_svelte": "SvelteKit 5 with Svelte runes",
 	"tech_tailwind": "Tailwind CSS v4",
 	"tech_paraglide": "Paraglide for i18n",
-	"tech_vite": "Vite for build"
+	"tech_vite": "Vite for build",
+	"hero_title": "Premium Audio Experience",
+	"hero_subtitle": "Discover the world's finest headsets",
+	"hero_cta": "Shop Now",
+	"feature_1_title": "Crystal Clear Sound",
+	"feature_1_desc": "Experience immaculate audio quality with advanced noise cancellation technology",
+	"feature_2_title": "All-Day Comfort",
+	"feature_2_desc": "Lightweight design with premium materials for hours of comfortable listening",
+	"feature_3_title": "Extended Battery",
+	"feature_3_desc": "Up to 48 hours of battery life with fast charging capabilities",
+    "why_product":"Why Choose Start Audio",
+	"cta_title": "Ready to Elevate Your Audio?",
+	"cta_desc": "Join thousands of audio enthusiasts worldwide",
+	"cta_button": "Get Started",
+	"footer_copyright": "© 2026 Start Audio. All rights reserved.",
+	"footer_about": "About",
+	"footer_contact": "Contact",
+	"footer_privacy": "Privacy"
 }
