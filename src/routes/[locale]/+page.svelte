@@ -1,7 +1,7 @@
 <script>
 	import Header from '$lib/ui/Header.svelte';
 	import Footer from '$lib/ui/Footer.svelte';
-	import LandingPage from '$lib/ui/LandingPage.svelte';
+	import LandingPage from '$lib/ui/LandingPage/index.svelte';
 	import { m } from '$lib/paraglide/messages';
 	import { page } from '$app/state';
 

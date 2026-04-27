@@ -14,8 +14,8 @@
 			<h4>Links</h4>
 			<ul>
 				<li><a href={`/${page.params.locale}/about`}>{m.footer_about()}</a></li>
-				<li><a href="#">{m.footer_contact()}</a></li>
-				<li><a href="#">{m.footer_privacy()}</a></li>
+				<li><a href="#1">{m.footer_contact()}</a></li>
+				<li><a href="#1">{m.footer_privacy()}</a></li>
 			</ul>
 		</div>
 	</div>
