@@ -1,5 +1,6 @@
 <script lang="ts">
     import { m } from "$lib/paraglide/messages";
+    import heroImage from "$lib/assets/images/image.png";
 
     // Data untuk Gallery
     let galleryItems = [
@@ -149,7 +150,7 @@
         </div>
         <div class="flex justify-center items-center">
             <img
-                src="/src/lib/assets/images/image.png"
+                src={heroImage}
                 alt="Start Audio"
                 class="w-full max-w-md h-auto animate-float"
             />
@@ -202,7 +203,7 @@
                     <!-- Menghapus aspect-square di parent flex untuk menghindari layout aneh dengan teks panjang -->
                     <div class="overflow-hidden rounded-2xl shadow-lg aspect-video md:aspect-[4/3] bg-[var(--bg-2)]">
                         <img
-                            src="/src/lib/assets/images/image.png"
+                            src={heroImage}
                             alt={item.title}
                             class="w-full h-full object-cover will-change-transform transition-transform duration-500 hover:scale-110"
                             use:useParallax
@@ -227,7 +228,7 @@
     <div class="max-w-6xl mx-auto">
         <!-- Header dengan animasi scroll -->
         <div
-            use:useIntersection
+            use:useReveal
             class="text-center mb-12 lg:mb-16 opacity-0 translate-y-8 transition-all duration-700"
         >
             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[var(--fg-2)] mb-4">
@@ -241,7 +242,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {#each testimonials as t, i}
                 <div
-                    use:useIntersection
+                    use:useReveal
                     class="p-6 lg:p-8 bg-white dark:bg-slate-800 rounded-xl shadow-md border border-[var(--fg-1)]/10
                            hover:shadow-lg hover:-translate-y-2 transition duration-300
                            opacity-0 translate-y-8 delay-{i * 100}"
