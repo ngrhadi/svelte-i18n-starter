@@ -1,42 +1,59 @@
-# Start Audio - Landing Page
+# Start Audio
 
-A modern, animated landing page for Start Audio (premium headset e-commerce) built with SvelteKit 5, Tailwind CSS, and Paraglide i18n.
+Landing page untuk Start Audio — e-commerce headset premium. Dibangun dengan SvelteKit 5, Tailwind CSS v4, dan Paraglide i18n (EN/ID).
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **SvelteKit 5** + Svelte 5 runes (`$state`, `$derived`, `$effect`)
+- **Tailwind CSS v4** — theming via CSS custom properties, bukan `dark:` prefix
+- **Paraglide** — i18n dengan locale di URL (`/en`, `/id`)
+- **Vercel** — deployment via `@sveltejs/adapter-vercel`
+- **Vitest** — unit test (Node) + browser component test (Playwright/Chromium)
 
-```sh
-# create a new project
-npx sv create my-app
+## Mulai
+
+```bash
+npm install
+npm run dev        # http://localhost:5173
 ```
 
-To recreate this project with the same configuration:
+## Scripts
 
-```sh
-# recreate this project
-npx sv@0.15.1 create --template minimal --types ts --add prettier vitest="usages:unit,component" tailwindcss="plugins:typography,forms" sveltekit-adapter="adapter:vercel" paraglide="languageTags:en, id+demo:yes" --install npm sample
+| Perintah | Keterangan |
+|---|---|
+| `npm run dev` | Dev server |
+| `npm run build` | Build produksi |
+| `npm run preview` | Preview build lokal |
+| `npm run check` | Svelte type-check |
+| `npm run format` | Auto-format (Prettier) |
+| `npm run lint` | Cek format saja |
+| `npm run test` | Semua test (unit + browser) |
+
+## Struktur Utama
+
+```
+src/
+├── routes/
+│   └── [locale]/          # Semua halaman di bawah prefix locale
+│       ├── +page.svelte   # Landing page utama
+│       ├── about/
+│       └── demo/
+├── lib/
+│   ├── ui/                # Komponen UI (Header, Footer, LandingPage)
+│   ├── playground/        # Komponen playground/demo
+│   └── paraglide/         # Auto-generated — jangan diedit manual
+└── hooks.server.ts        # Middleware Paraglide
 ```
 
-## Developing
+## i18n
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+File pesan ada di `/messages/{locale}.json`. Edit file tersebut, bukan folder `$lib/paraglide/` yang di-generate otomatis.
 
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```typescript
+import { m } from '$lib/paraglide/messages';
+m.visit()  // "Visit" (en) | "Kunjungi" (id)
 ```
 
-## Building
+## Deploy
 
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Push ke branch `main` → auto-deploy ke Vercel. Pastikan environment variable sudah terkonfigurasi di dashboard Vercel.

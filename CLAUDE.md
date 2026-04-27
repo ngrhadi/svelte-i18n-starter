@@ -55,6 +55,13 @@ Vitest runs two projects configured in `vite.config.ts`:
 - **Server**: Node environment for `.spec.ts` files
 - **Client**: Playwright/Chromium browser environment for `.svelte.spec.ts` files
 
+### Branch Strategy
+
+- `main`, `master`, `staging`, dan `develop` adalah **protected branches** — jangan commit langsung ke sini
+- Setiap task/fitur/bugfix harus menggunakan **branch baru** (`feat/`, `fix/`, `chore/`, dll.)
+- Merge ke protected branch hanya melalui Pull Request
+- Hapus branch setelah PR di-merge
+
 ### Key Conventions
 
 - **Tabs, single quotes, 100-char line width** (Prettier — auto-enforced)
