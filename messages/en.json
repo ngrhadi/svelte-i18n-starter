@@ -36,5 +36,22 @@
 	"seo_home_title": "Start Audio — Premium Audio Experience",
 	"seo_home_desc": "Discover the world's finest headsets. Crystal clear sound, all-day comfort, and up to 48 hours of battery life.",
 	"seo_about_title": "About — Start Audio",
-	"seo_about_desc": "Learn more about Start Audio and our premium headset collection crafted for audiophiles and professionals."
+	"seo_about_desc": "Learn more about Start Audio and our premium headset collection crafted for audiophiles and professionals.",
+	"nav_dashboard": "Dashboard",
+	"nav_login": "Login",
+	"login_title": "Sign In",
+	"login_username": "Username",
+	"login_password": "Password",
+	"login_submit": "Login",
+	"login_submitting": "Processing...",
+	"login_demo_hint": "Demo: admin / password123 or user / user123",
+	"login_error_required": "Username and password are required.",
+	"login_error_invalid": "Invalid username or password.",
+	"dashboard_title": "Dashboard",
+	"dashboard_welcome": "Welcome back,",
+	"dashboard_field_username": "Username",
+	"dashboard_field_role": "Role",
+	"dashboard_field_status": "Status",
+	"dashboard_status_active": "Active",
+	"dashboard_logout": "Logout"
 }

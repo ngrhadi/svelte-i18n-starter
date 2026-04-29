@@ -45,5 +45,4 @@
 	.animate-slide-in-left { animation: slideInLeft 0.8s ease-out forwards; }
 	.animate-slide-in-up { animation: slideInUp 0.8s ease-out forwards; }
 	.animation-delay-200 { animation-delay: 200ms; }
-	.animation-delay-400 { animation-delay: 400ms; }
 </style>

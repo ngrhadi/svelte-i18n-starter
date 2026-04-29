@@ -69,3 +69,15 @@ Vitest runs two projects configured in `vite.config.ts`:
 - **`$lib/paraglide/`** is auto-generated — edit `/messages/*.json` instead
 - Theme (light/dark) is persisted to `localStorage` and toggled in `PlaygroundLayout.svelte`
 - CSS custom properties (`--bg-1`, `--fg-1`, `--link`, etc.) drive theming rather than Tailwind dark mode
+
+### Internationalization Rules
+
+- **Zero hardcoded strings** in `.svelte` files — every user-visible text must use `m.<key>()` from `$lib/paraglide/messages`
+- Server actions must return **error codes** (e.g. `{ error: 'invalid_credentials' }`), not raw error strings — translation happens on the client side
+- New message keys go in **both** `/messages/en.json` and `/messages/id.json` simultaneously
+
+### Component Modularity
+
+- **Atomic UI pieces** (label + input, button variants, etc.) live in `src/lib/ui/` as standalone components — never inline repeated markup
+- **Feature-level forms** (e.g. login form) are their own component under `src/lib/ui/` — pages compose components, not markup
+- A page (`.svelte` in `routes/`) should import components, not contain raw form/input/label markup directly

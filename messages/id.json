@@ -36,5 +36,22 @@
 	"seo_home_title": "Start Audio — Pengalaman Audio Premium",
 	"seo_home_desc": "Temukan headset terbaik di dunia. Suara jernih, nyaman sepanjang hari, dan baterai hingga 48 jam.",
 	"seo_about_title": "Tentang — Start Audio",
-	"seo_about_desc": "Pelajari lebih lanjut tentang Start Audio dan koleksi headset premium kami untuk para audiofil dan profesional."
+	"seo_about_desc": "Pelajari lebih lanjut tentang Start Audio dan koleksi headset premium kami untuk para audiofil dan profesional.",
+	"nav_dashboard": "Dasbor",
+	"nav_login": "Masuk",
+	"login_title": "Masuk",
+	"login_username": "Username",
+	"login_password": "Kata Sandi",
+	"login_submit": "Masuk",
+	"login_submitting": "Memproses...",
+	"login_demo_hint": "Demo: admin / password123 atau user / user123",
+	"login_error_required": "Username dan kata sandi wajib diisi.",
+	"login_error_invalid": "Username atau kata sandi salah.",
+	"dashboard_title": "Dasbor",
+	"dashboard_welcome": "Selamat datang kembali,",
+	"dashboard_field_username": "Username",
+	"dashboard_field_role": "Peran",
+	"dashboard_field_status": "Status",
+	"dashboard_status_active": "Aktif",
+	"dashboard_logout": "Keluar"
 }
